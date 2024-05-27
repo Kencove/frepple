@@ -1,0 +1,9 @@
+variables:
+  TEST_DISABLED: "true"
+  K8S_SECRET_POSTGRES_DBNAME: freppledb
+  K8S_SECRET_POSTGRES_HOST: 10.54.160.245
+  # K8S_SECRET_POSTGRES_PASSWORD: 
+  K8S_SECRET_POSTGRES_USER: frepple_user
+
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
